@@ -20,16 +20,19 @@ const Review = () => {
           <img src={cust} alt="div image" />
         </div>
         <div className="textDiv">
-          <span className="redText" data-aos="fade-up">
-            From Our Clients
-          </span>
-          <h3 data-aos="fade-up">
-            Real Travel History from Our Beloved Clients
-          </h3>
+          {/* <span className="redText" data-aos="fade-up">
+            HolyLand TV
+          </span> */}
+          <h3 data-aos="fade-up">About Us</h3>
           <p data-aos="fade-up">
-            By Choosing us as their tour agency, customers can expect an
-            enriching and enjoyable travel experience, filled with unforgettable
-            memories that will last a lifetime.
+            Holy Land TV is a non-profit, non-denominational Christian digital
+            media channel. Holy Land TV broadcasts its content mainly in Tamil &
+            Malayalam language. We offer High-quality Live streaming Solutions
+            to the general public that includes Church Programs Live Streams,
+            Wedding Live Stream, Funeral Live Stream, Institutional Program Live
+            Stream, etc. We are well equipped with the latest technology-enabled
+            network and devices to stream your favorite content. Good News to
+            Ends of the Earth.
           </p>
           <span className="stars flex" data-aos="fade-up">
             <AiFillStar className="icon" />

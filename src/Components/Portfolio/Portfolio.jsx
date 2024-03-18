@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import icon1 from "../../assets/destination.svg";
 import icon2 from "../../assets/protect.svg";
 import icon3 from "../../assets/chat.svg";
-import image from "../../assets/travel.png";
+import image from "../../assets/studio2.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -35,7 +35,7 @@ const Portfolio = () => {
                 </p>
               </div>
             </div>
-            <div className="singlePortfolio flex" data-aos="fade-up">
+            {/* <div className="singlePortfolio flex" data-aos="fade-up">
               <div className="iconDiv">
                 <img src={icon1} alt="No Img found" />
               </div>
@@ -47,7 +47,7 @@ const Portfolio = () => {
                   interests and preferences.
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="singlePortfolio flex" data-aos="fade-up">
               <div className="iconDiv">
                 <img src={icon3} alt="No Img found" />

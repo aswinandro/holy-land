@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./Footer.css";
 import { FaFacebookF } from "react-icons/fa";
-import { SiKaios } from "react-icons/si";
+import { SiHumblebundle } from "react-icons/si";
 import { BsTwitter } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import Aos from "aos";
@@ -16,13 +16,19 @@ const Footer = () => {
       <div className="secContainer container grid">
         <div className="logoDiv">
           <div className="footerLogo" data-aos="fade-up">
-            <SiKaios className="icon" />
-            <span>erith Travels</span>
+            <SiHumblebundle className="icon" />
+            <span>oly Land </span>
           </div>
           <div className="socials flex">
-            <FaFacebookF className="icon" />
-            <BsTwitter className="icon" />
-            <AiFillInstagram className="icon" />
+            <a href="https://www.facebook.com/HolyLandTV.in">
+              <FaFacebookF className="icon" />{" "}
+            </a>
+            <a href="https://twitter.com/HolyLandTV_in">
+              <BsTwitter className="icon" />{" "}
+            </a>
+            <a href="https://www.instagram.com/HolyLandTV.in">
+              <AiFillInstagram className="icon" />{" "}
+            </a>
           </div>
         </div>
 
@@ -35,7 +41,7 @@ const Footer = () => {
             <a href="#">Explore</a>
           </li>
           <li>
-            <a href="#">Travel</a>
+            <a href="#">Events</a>
           </li>
           <li>
             <a href="#">Blog</a>
@@ -45,13 +51,13 @@ const Footer = () => {
         <div className="footerLinks" data-aos="fade-up">
           <span className="linkTitle">Helpful Links</span>
           <li>
-            <a href="#">Destination</a>
+            <a href="#">Gallery</a>
           </li>
           <li>
             <a href="#">Support</a>
           </li>
           <li>
-            <a href="#">Travel & Conditions</a>
+            <a href="#">Terms & Conditions</a>
           </li>
           <li>
             <a href="#">Privacy</a>
@@ -59,10 +65,10 @@ const Footer = () => {
         </div>
         <div className="footerLinks">
           <span className="linkTitle">Contact Details</span>
-          <span className="phone">+91 9486781846</span>
-          <span className="email">info@kerithtravel.com</span>
-          <span className="email">Mano Complex 18 41 B20</span>
-          <span className="email">Kazhuvanthittai, Kuzhithurai</span>
+          <span className="phone">Mob +91 9444773063</span>
+          <span className="email">holylandtv.klm@gmail.com</span>
+          <span className="email">Pastor Jose </span>
+          <span className="email">Themaanoor, Kannyakumari</span>
         </div>
       </div>
     </div>

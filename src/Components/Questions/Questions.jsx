@@ -18,40 +18,45 @@ const Questions = () => {
       <div className="secContainer grid" data-aos="fade-up">
         <div className="accordion grid">
           <Accordion
-            title="How to find my destination"
-            desc="Consider your interests, budget, desired experiences, and the type of
-          environment, Research destinations that align with your preferences"
+            title="Can I use your service in multiple locations simultaneously?"
+            desc="The number of simultaneous streams allowed depends on your subscription plan. 
+                  Please refer to the plan details or contact our support team for more information"
             active={active}
             setActive={setActive}
             data-aos="fade-up"
           />
           <Accordion
-            title="How can i find budget friendly travel options and deals?"
-            desc="Look for travel deals, discounts on flights and accomodations, and
-            consider using travel apps or websites that offer competitive prices. Being
-            flexible with your travel dates can also help you find better deals"
+            title="How do you protect my privacy and personal information?"
+            desc="We take your privacy and security seriously. We employ industry-standard security measures
+             to protect your personal information and adhere to strict privacy policies."
             active={active}
             setActive={setActive}
             data-aos="fade-up"
           />
           <Accordion
-            title="Best times to visit specific destination?"
-            desc="Look for travel deals, discounts on flights and accomodations, and
-            consider using travel apps or websites that offer competitive prices. Being
-            flexible with your travel dates can also help you find better deals"
+            title="Is it legal to use your streaming service?"
+            desc="Yes, our streaming service operates legally and complies
+             with all relevant copyright laws and regulations."
             active={active}
             setActive={setActive}
             data-aos="fade-up"
           />
           <Accordion
-            title="Can I make changes to or cancel my booking?"
-            desc="The ability to make changes or cancel your booking depends on the terms and conditions of the service provider you booked with. 
-            Some bookings may be non-refundable or subject to fees for changes. We recommend reviewing the specific policies outlined at the time of 
-            booking or contacting our customer support for assistance."
+            title="Is your service compatible with my device?"
+            desc="Our streaming service is compatible with a wide range of devices, including smartphones, tablets, 
+            smart TVs, and gaming consoles. You can find a list of supported devices on our website."
             active={active}
             setActive={setActive}
             data-aos="fade-up"
           />
+          {/* <Accordion
+            title="Do you offer customer support?"
+            desc="Yes, we have a dedicated customer support team available to assist you with any questions or issues 
+            you may encounter. You can reach out to us through email or live chat support."
+            active={active}
+            setActive={setActive}
+            data-aos="fade-up"
+          /> */}
         </div>
         <div className="form">
           <div className="secHeading">

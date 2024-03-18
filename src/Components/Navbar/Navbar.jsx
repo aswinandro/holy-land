@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { SiHexlet } from "react-icons/si";
+import { SiHumblebundle } from "react-icons/si";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { PiDotsNineBold } from "react-icons/pi";
 import { Link, Element } from "react-scroll";
@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className="blurNav">
       <div className="navBar">
         <div className="logoDiv">
-          <SiHexlet className="icon" />
+          <SiHumblebundle className="icon" />
           <span>oly Land Television</span>
         </div>
 
@@ -27,7 +27,7 @@ const Navbar = () => {
           <ul>
             <li className="navList">
               <Link to="destinations" smooth={true} duration={400}>
-                Destination
+                Home
               </Link>
             </li>
             <li className="navList">
@@ -41,8 +41,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="navList">
-              <Link to="destinations" smooth={true} duration={400}>
-                Gallery
+              <Link to="events" smooth={true} duration={400}>
+                Events
               </Link>
             </li>
           </ul>

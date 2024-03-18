@@ -19,9 +19,10 @@ const Home = () => {
         <video src={VideoBg} autoPlay loop muted></video>
       </div>
       <div className="sectionText">
-        <h1 data-aos="fade-up">Unlock your Travel Dreams With Us!</h1>
+        <h1 data-aos="fade-up">Transforming Hearts, through Streaming </h1>
         <p data-aos="fade-up">
-          Discover the world's most adventurous nature life is so short!
+          Broadcasting Faith, Sharing Grace Connecting Communities Through
+          Christ!
         </p>
         <button data-aos="fade-up" className="btn flex">
           Get Started <AiOutlineSwapRight className="icon" />

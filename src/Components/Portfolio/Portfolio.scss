@@ -199,3 +199,22 @@
     }
   }
 }
+
+@media screen and (max-width: 957px) {
+  .portfolio {
+    .secContainer {
+      .rightContent {
+        // margin: auto;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        img {
+          margin: auto;
+          max-width: 80%;
+          min-height: 100%;
+          border-radius: 30%;
+        }
+      }
+    }
+  }
+}

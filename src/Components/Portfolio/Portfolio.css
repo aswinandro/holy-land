@@ -141,4 +141,12 @@
   .portfolio .secContainer .leftContent .grid .singlePortfolio {
     gap: 2rem;
   }
+}
+@media screen and (max-width: 957px) {
+  .portfolio .secContainer .rightContent img {
+    margin: auto;
+    max-width: 80%;
+    min-height: 100%;
+    border-radius: 30%;
+  }
 }/*# sourceMappingURL=Portfolio.css.map */

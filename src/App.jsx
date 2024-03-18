@@ -16,11 +16,15 @@ function App() {
     <div>
       <Navbar />
       <Home />
+
       <Middle />
-      <Youtube />
-      <Element name="destinations">
-        <Destinations />
+      <Element name="events">
+        <Youtube />
       </Element>
+
+      {/* <Element name="destinations">
+        <Destinations />
+      </Element> */}
       <Element name="reviews">
         <Reviews />
       </Element>
