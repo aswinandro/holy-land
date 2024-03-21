@@ -8,6 +8,7 @@ import image4 from "../../assets/popular4.jpg";
 import { AiOutlineSwapRight } from "react-icons/ai";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link, Element } from "react-scroll";
 
 const Home = () => {
   useEffect(() => {
@@ -24,11 +25,13 @@ const Home = () => {
           Broadcasting Faith, Sharing Grace Connecting Communities Through
           Christ!
         </p>
-        <button data-aos="fade-up" className="btn flex">
-          Get Started <AiOutlineSwapRight className="icon" />
-        </button>
+        <Link to="livetv" smooth={true} duration={400}>
+          <button data-aos="fade-up" className="btn flex">
+            Get Started <AiOutlineSwapRight className="icon" />
+          </button>
+        </Link>
       </div>
-      <div className="popularPlaces">
+      {/* <div className="popularPlaces">
         <div className="content">
           <h3 data-aos="fade-up">Popular Places</h3>
           <div className="images flex">
@@ -38,7 +41,7 @@ const Home = () => {
             <img src={image4} alt="" />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

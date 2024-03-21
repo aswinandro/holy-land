@@ -18,7 +18,7 @@ const Youtube = () => {
     const fetchVideos = async () => {
       try {
         const response = await fetch(
-          `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=2`
+          `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=4`
         );
         const data = await response.json();
         setVideos(data.items);
@@ -27,7 +27,7 @@ const Youtube = () => {
       }
       try {
         const response = await fetch(
-          `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=viewCount&maxResults=2`
+          `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=viewCount&maxResults=4`
         );
         const data = await response.json();
         setVideosPopular(data.items);
@@ -38,6 +38,20 @@ const Youtube = () => {
 
     fetchVideos();
   }, [channelId, apiKey]);
+  if (!videos) {
+    return (
+      <div className="middle section">
+        {/* <div className="secContainer container">
+          <div className="grid">
+            <span className="flex" data-aos="fade-up">
+              <h1>Loading.....</h1>
+              <p>Youtube API Error</p>
+            </span>
+          </div>
+        </div> */}
+      </div>
+    );
+  }
 
   return (
     <div className="questions section container">
@@ -57,7 +71,6 @@ const Youtube = () => {
                   frameBorder="0"
                   allowFullScreen
                   className="iframe-container"
-                  allowtransparency="true"
                 ></iframe>
                 <h4 className="">{video.snippet.title}</h4>
                 {/* <p>{video.snippet.description}</p> */}
@@ -77,7 +90,6 @@ const Youtube = () => {
                   title={video.snippet.title}
                   frameBorder="0"
                   allowFullScreen
-                  allowTransparency="true"
                 ></iframe>
                 <h4 className="">{video.snippet.title}</h4>
                 {/* <p>{video.snippet.description}</p> */}

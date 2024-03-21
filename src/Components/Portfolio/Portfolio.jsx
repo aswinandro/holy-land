@@ -18,7 +18,7 @@ const Portfolio = () => {
           <div className="secHeading">
             <h3 data-aos="fade-up">Why Should You Chose Us</h3>
             <p data-aos="fade-up">
-              We have extensive knowledge and experience in the travel industry
+              We have extensive knowledge and experience in streaming industry
             </p>
           </div>
           <div className="grid">
@@ -27,11 +27,11 @@ const Portfolio = () => {
                 <img src={icon2} alt="No Img found" />
               </div>
               <div className="infor" data-aos="fade-up">
-                <h4 data-aos="fade-up">Safety and Support</h4>
+                <h4 data-aos="fade-up">Quality and Resolution</h4>
                 <p>
-                  Our top priority is the safety and well being of our clients.
-                  We maintain high safety standards and have emergency support
-                  available during the trip.
+                  The streaming service's ability to provide high-quality video
+                  and audio streaming, including options for 4K and HDR content,
+                  can be appealing to users who prioritize viewing experience.
                 </p>
               </div>
             </div>
@@ -56,8 +56,8 @@ const Portfolio = () => {
                 <h4 data-aos="fade-up">24/7 Customer Support</h4>
                 <p>
                   Our dedicated customer support team is available round the
-                  clock to address any queries or concerns before, during, and
-                  after the trip.
+                  clock to address any queries or concerns Responsive customer
+                  support and assistance in resolving issues.
                 </p>
               </div>
             </div>

@@ -26,8 +26,13 @@ const Navbar = () => {
         <div className={navBar}>
           <ul>
             <li className="navList">
-              <Link to="destinations" smooth={true} duration={400}>
+              <Link to="home" smooth={true} duration={400}>
                 Home
+              </Link>
+            </li>
+            <li className="navList">
+              <Link to="livetv" smooth={true} duration={400}>
+                Live TV
               </Link>
             </li>
             <li className="navList">

@@ -65,9 +65,9 @@ const Footer = () => {
         </div>
         <div className="footerLinks">
           <span className="linkTitle">Contact Details</span>
-          <span className="phone">Mob +91 9444773063</span>
+          <span className="phone"> Mob +91 9444773063</span>
           <span className="email">holylandtv.klm@gmail.com</span>
-          <span className="email">Pastor Jose </span>
+          <span className="email">Pastor Zekaria Jose </span>
           <span className="email">Themaanoor, Kannyakumari</span>
         </div>
       </div>

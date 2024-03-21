@@ -48,14 +48,14 @@ const Middle = () => {
   if (!statistics) {
     return (
       <div className="middle section">
-        <div className="secContainer container">
+        {/* <div className="secContainer container">
           <div className="grid">
             <span className="flex" data-aos="fade-up">
               <h1>Loading.....</h1>
               <p>Please Wait</p>
             </span>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
