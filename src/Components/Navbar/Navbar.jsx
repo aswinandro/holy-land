@@ -50,6 +50,11 @@ const Navbar = () => {
                 Events
               </Link>
             </li>
+            <li className="navList">
+              <Link to="payment" smooth={true} duration={400}>
+                Pay
+              </Link>
+            </li>
           </ul>
           <AiFillCloseCircle
             className="icon closeIcon"

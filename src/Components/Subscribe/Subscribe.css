@@ -32,6 +32,10 @@
   border-radius: 10%;
   -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, from(rgb(0, 0, 0)), to(rgba(0, 0, 0, 0)));
 }
+.subscribe .secContainer img:hover {
+  cursor: pointer;
+  scale: 1.02;
+}
 .subscribe .secContainer .textDiv h4 {
   font-size: var(--h2FontSize);
   color: var(--blackColor);
@@ -42,10 +46,18 @@
 .subscribe .secContainer .textDiv .btn {
   padding: 0.5rem 2rem;
 }
+.subscribe .secContainer .textDiv a {
+  text-decoration: none !important;
+  color: var(--whiteColor) !important;
+}
+.subscribe .secContainer .textDiv a :hover {
+  color: var(--primaryColor);
+}
 
 @media screen and (min-width: 480px) {
   .subscribe .secContainer img {
-    max-width: 100%;
+    max-width: 90%;
+    max-height: 80%;
     margin: auto;
   }
   .subscribe .secContainer .textDiv h4 {
@@ -86,6 +98,9 @@
   }
 }
 @media screen and (min-width: 1300px) {
+  .subscribe .secContainer {
+    gap: 4rem;
+  }
   .subscribe .secContainer img {
     max-width: 100%;
     max-height: 75%;

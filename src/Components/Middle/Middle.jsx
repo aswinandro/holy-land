@@ -60,7 +60,7 @@ const Middle = () => {
     );
   }
   return (
-    <div className="middle section">
+    <div data-aos="zoom-in" className="middle section">
       <div className="secContainer container">
         <div className="grid">
           <span className="flex" data-aos="fade-up">

@@ -54,11 +54,14 @@ const Livetv = () => {
       <div data-aos="zoom-in" className="secContainer grid">
         <div className="videoLive">
           <ReactPlayer
-            playing="true"
-            controls="true"
+            autoPlay={true}
+            playing={true}
+            muted={true}
+            controls={true}
+            playsinline={true}
             height="100%"
             width="100%"
-            url="https://stream.applelive.in/hls/holylandtv.m3u8"
+            url="https://play.applelive.in/holylandtv/holylandtv.m3u8"
           />
         </div>
       </div>

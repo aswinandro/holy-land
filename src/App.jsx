@@ -10,6 +10,7 @@ import Subscribe from "./Components/Subscribe/Subscribe";
 import Footer from "./Components/Footer/Footer";
 import Youtube from "./Components/Youtube/Youtube";
 import Livetv from "./Components/Livetv/Livetv";
+import Payment from "./Components/Payment/Payment";
 
 import { Link, Element } from "react-scroll";
 function App() {
@@ -20,14 +21,14 @@ function App() {
         <Home />
       </Element>
       <div className="gradient">
-        <Middle />
+        {/* <Middle /> */}
       </div>
       <Element name="livetv">
         <Livetv />
       </Element>
 
       <Element name="events">
-        <Youtube />
+        {/* <Youtube /> */}
       </Element>
 
       {/* <Element name="destinations">
@@ -41,6 +42,10 @@ function App() {
       </Element>
 
       <Questions />
+      <Element name="payment">
+        <Payment />
+      </Element>
+
       <Subscribe />
       <Footer />
     </div>

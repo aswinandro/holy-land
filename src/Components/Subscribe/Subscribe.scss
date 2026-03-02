@@ -41,6 +41,10 @@
         from(rgba(0, 0, 0, 1)),
         to(rgba(0, 0, 0, 0))
       );
+      &:hover {
+        cursor: pointer;
+        scale: 1.02;
+      }
     }
     .textDiv {
       h4 {
@@ -53,6 +57,14 @@
       .btn {
         padding: 0.5rem 2rem;
       }
+      a {
+        text-decoration: none !important;
+        color: var(--whiteColor) !important;
+
+        :hover {
+          color: var(--primaryColor);
+        }
+      }
     }
   }
 }
@@ -63,7 +75,8 @@
   .subscribe {
     .secContainer {
       img {
-        max-width: 100%;
+        max-width: 90%;
+        max-height: 80%;
         margin: auto;
       }
       .textDiv {
@@ -125,6 +138,7 @@
 @media screen and (min-width: 1300px) {
   .subscribe {
     .secContainer {
+      gap: 4rem;
       img {
         max-width: 100%;
         max-height: 75%;

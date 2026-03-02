@@ -29,6 +29,12 @@
 
 .review {
   .secContainer {
+    img {
+      &:hover {
+        cursor: pointer;
+        scale: 1.1;
+      }
+    }
     .textDiv {
       .redText {
         font-size: var(--smallFontSize);
@@ -124,7 +130,7 @@
         width: 100%;
         img {
           height: 100%;
-          width: 100%;
+          width: 220%;
         }
       }
     }
@@ -154,8 +160,8 @@
         }
         .clientsImages {
           img {
-            height: 20%;
-            width: 20%;
+            height: 15%;
+            width: 15%;
           }
         }
       }
@@ -214,7 +220,7 @@
 @media screen and (min-width: 1240px) {
   .review {
     .secContainer {
-      gap: 3rem;
+      gap: 4rem;
 
       .textDiv {
         .redText {

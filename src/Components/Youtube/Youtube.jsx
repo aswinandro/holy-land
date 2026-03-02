@@ -18,7 +18,7 @@ const Youtube = () => {
     const fetchVideos = async () => {
       try {
         const response = await fetch(
-          `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=4`
+          `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=2`
         );
         const data = await response.json();
         setVideos(data.items);
@@ -27,7 +27,7 @@ const Youtube = () => {
       }
       try {
         const response = await fetch(
-          `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=viewCount&maxResults=4`
+          `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=viewCount&maxResults=2`
         );
         const data = await response.json();
         setVideosPopular(data.items);
